@@ -8,7 +8,7 @@
 
 name: project CI/CD flow - Kat
 
-on: Workflow_dispatch //change
+on: Workflow_dispatch 
 
 
 jobs:
