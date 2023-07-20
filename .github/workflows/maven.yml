@@ -8,7 +8,7 @@
 
 name: project CI/CD flow - Kat
 
-on:
+on:Workflow_dispatch
   push:
     branches: [ "main" ]
   pull_request:
