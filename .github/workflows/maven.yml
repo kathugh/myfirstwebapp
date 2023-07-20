@@ -8,9 +8,14 @@
 
 name: project CI/CD flow - Kat
 
-on: Workflow_dispatch 
+ 
 
-
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+    
 jobs:
   build:
 
