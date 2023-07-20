@@ -9,10 +9,7 @@
 name: project CI/CD flow - Kat
 
 on: Workflow_dispatch
-  push:
-    branches: [ "main" ]
-  pull_request:
-    branches: [ "main" ]
+
 
 jobs:
   build:
